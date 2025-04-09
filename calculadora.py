@@ -12,5 +12,11 @@ def divisao(a, b):
         raise ValueError("Divisão por zero!")
     return a / b
 
-def potencia(base, expoente):  
+def potencia_operator(base, expoente):  
     return base ** expoente  # Usando operador **
+
+def optencia_loop (base, expoente):
+    resultado = 1  
+    for _ in range(expoente):  # Usando loop for  
+        resultado *= base  
+    return resultado
