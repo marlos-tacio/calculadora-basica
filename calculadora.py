@@ -20,3 +20,8 @@ def optencia_loop (base, expoente):
     for _ in range(expoente):  # Usando loop for  
         resultado *= base  
     return resultado
+
+def raiz_quadrada(x):  
+    if x < 0:  
+        raise ValueError("Não há raiz real para números negativos.")  
+    return x ** 0.5  
